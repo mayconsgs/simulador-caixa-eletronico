@@ -19,3 +19,5 @@ Deve ser utilizado Tailwind para estilização da aplicação e padronização d
 # InstruçÕes de arquitetura
 
 Todo componente que tiver o mesmo propósito deve ser separado e parametrizado para ser utilizado em N lugares, mantendo consistência no projeto e facilitando manutenção.
+
+As telas devem ser projetadas para serem usadas em resoluções de tablet, notebook e desktop. Dado que será um projeto para ensino de idosos e o professor ira instruílos usando esses dispositivos.
