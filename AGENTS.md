@@ -7,3 +7,15 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+# Objetivo
+
+O projeto tem como objetivo contruir uma cópia o mais parecida possível de um caixa eletronico preferencialmente com a interface dos caixas eletrônicos da Caixa Econômica Federal que é o banco brasileiro mais usado por idosos e aposentados.
+
+# Stack
+
+Deve ser utilizado Tailwind para estilização da aplicação e padronização de componentes.
+
+# InstruçÕes de arquitetura
+
+Todo componente que tiver o mesmo propósito deve ser separado e parametrizado para ser utilizado em N lugares, mantendo consistência no projeto e facilitando manutenção.
